@@ -41,6 +41,15 @@ public:
 		}
 		ptr[i]++;
 	}
+		nfn& operator+=(const nfn& in) {
+		unsigned long long i = ZEROx64;
+		while (i < size) {
+			ptr[i] += (in.size >i)?in.ptr[i]:ZEROx64;
+			if (ptr[i]<in.ptr[i]&&!i== size) ptr[i + 1]++;
+			i++;
+		}
+		return *this;
+	}
 	friend std::ostream& operator<<(std::ostream& os, const nfn& in);
 
 	// left shift(int) 
@@ -98,6 +107,12 @@ int main()
 	std::cout << "\n" << B << "\n";
 	B << (unsigned long long)63;
 	std::cout << "\n" << B << "\n";
+	std::cout << "\n" << c << "\n";
+	c += B;
+	c++;
+	c += B;
+	c += c;
+	std::cout << "\n" << c << "\n";
 	delete &B;
 	char i[256];
 	std::cin.getline(i,256);
