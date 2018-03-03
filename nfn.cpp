@@ -96,7 +96,7 @@ void nfn::operator delete(void* ptr) {
 
 int main()
 {
-	nfn B(5);
+	nfn B(5),c(6);
 	++B;
 	//B++;
 	std::cout << "\n" << B << "\n";
