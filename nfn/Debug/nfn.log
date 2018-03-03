@@ -1,0 +1,8 @@
+﻿  nfn.cpp
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(64): warning C4244: 'initializing': conversion from 'const unsigned __int64' to '::size_t', possible loss of data
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(66): warning C4244: 'argument': conversion from 'const unsigned __int64' to 'int', possible loss of data
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(72): warning C4244: '=': conversion from 'const unsigned __int64' to '::size_t', possible loss of data
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(73): warning C4018: '<': signed/unsigned mismatch
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(78): warning C4244: '=': conversion from 'const unsigned __int64' to '::size_t', possible loss of data
+c:\users\ulfar\onedrive\dokumenter\github\nfn\nfn\nfn.cpp(81): warning C4554: '>>': check operator precedence for possible error; use parentheses to clarify precedence
+  nfn.vcxproj -> C:\Users\ulfar\OneDrive\Dokumenter\GitHub\nfn\nfn\Debug\nfn.exe
